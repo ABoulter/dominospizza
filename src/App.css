@@ -1,9 +1,16 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   display: flex;
   background-color: navy;
   justify-content: center;
   align-items: center;
   min-height: 80px;
+  margin-bottom: 50;
 }
 nav h1 {
   margin: 0;
@@ -35,4 +42,14 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 90%;
+}
+
+#highlights {
+  max-width: 980px;
+  margin: 0 auto;
+}
+#highlights li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
