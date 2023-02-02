@@ -1,1 +1,38 @@
+nav {
+  display: flex;
+  background-color: navy;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+nav h1 {
+  margin: 0;
+}
+nav h1 img {
+  width: 40px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  transition: background-color 500ms;
+  cursor: pointer;
+}
+
+nav ul li:hover,
+nav ul li:active {
+  background-color: darkblue;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 90%;
+}
