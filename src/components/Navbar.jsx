@@ -1,4 +1,5 @@
 export default function Navbar(props) {
+  const { toggleProducts, cart } = props;
   return (
     <nav>
       <h1>
@@ -47,7 +48,7 @@ export default function Navbar(props) {
           <a href="/">login</a>
         </li>
         <li>
-          <a href="/">carrinho</a>
+          <a href="/">carrinho({cart.length})</a>
         </li>
       </ul>
     </nav>
